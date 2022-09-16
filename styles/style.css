@@ -1,0 +1,17 @@
+.body {
+  background: url ();
+  background-size: cover;
+  /* keep the inherted background full size */
+  background-attachment: fixed;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/* the container is used to create the glass effect */
+.container {
+  width: 30rem;
+  height: 20rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+
+}
