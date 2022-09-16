@@ -1,29 +1,55 @@
-.body {
-  background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+
+body {
+  background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
+  /* Keep the inherited background full size. */
+  background-attachment: fixed; 
   background-size: cover;
-  /* keep the inherted background full size */
-  background-attachment: fixed;
-  display: grid;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: sans-serif;
 }
-
+/* This container is needed to position the front and back side */
 .container {
   width: 30rem;
   height: 20rem;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  transition:0.5s ease-out;
 }
 
-/* the container before  is used to create the glass effect */
-.container {
-  content: " ";
+.container:before {
+  content: "";
   position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  box-shadow: inset 0 0 2000px rgba (225, 225, 225, .5);
-  filter: blur(10px)
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+}
 
-
+.container .content {
+  position:absolute;
+ left:0;
+ bottom:0;
+ width:100%;
+ height:60px;
+ box-sizing:border-box;
+ transition: 0.5s cubic-bezier(.22,.68,0,1.71);
+ transition:0.3s ease-out;
+ transition: transform 0.8s;
+ transform-style: preserve-3d;
+ overflow:hidden;
+ padding:12px;
+ background: rgba(255,255,255,0.5);;
+ border-radius:16px;
 }
