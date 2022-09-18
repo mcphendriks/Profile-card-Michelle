@@ -12,7 +12,7 @@ In het visitekaartje maak ik duidelijk wie ik ben en wat mijn ambitities zijn. D
 
 <h2>Opbouw</h2>
 
-1️⃣  markup: !DOCTYPE html
+1️⃣ !DOCTYPE html
 html lang="en"
 head>
   link rel="stylesheet" href="styles/style.css"
