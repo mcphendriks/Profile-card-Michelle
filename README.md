@@ -12,7 +12,8 @@ In het visitekaartje maak ik duidelijk wie ik ben en wat mijn ambitities zijn. D
 
 <h2>Opbouw</h2>
 
-1️⃣
+1️⃣ Eerst gebruik je de toolkit "Emmet" om snel de basis HTML opmaak te maken. 
+Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen. 
 
 ```
 <!DOCTYPE html>
@@ -25,12 +26,6 @@ In het visitekaartje maak ik duidelijk wie ik ben en wat mijn ambitities zijn. D
   <title>Profile card</title>
 </head>
 <body>
-  <div class="card">
- <div class="content">
-  <h1>Hi, my name is Michelle</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum exercitationem, delectus sed veniam, repellat consequuntur cumque expedita ad reiciendis ea nihil error modi sint quod asperiores assumenda optio. Earum, qui!</p>
-  </div>
-  </div>
 </body>
 </html>
 ```
