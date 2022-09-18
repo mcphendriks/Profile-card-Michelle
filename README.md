@@ -11,6 +11,12 @@ In het visitekaartje maak ik duidelijk wie ik ben en wat mijn ambitities zijn. D
 * CSS
 
 <h2>Opbouw</h2>
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 
 1️⃣ !DOCTYPE html
 html lang="en"
