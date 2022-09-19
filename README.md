@@ -29,6 +29,7 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
 </body>
 </html>
 ```
+
 2️⃣ Maak een .div. met een class .card. Dit wordt gebruikt om het matglazen effect weer te geven. Vervolgens voeg je een .div. met een class .content. Hierin wordt de overlappende schaduw met inhoud weergegeven. daaropvolgend voeg een .h1. en .p. in de .div's. elementen toe om tekst weer te geven. 
 
 ```
