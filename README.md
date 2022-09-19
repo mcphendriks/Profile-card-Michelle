@@ -85,6 +85,13 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
 }
 ```
 
+6️⃣
+```
+
+
+
+7️⃣
+
 
 
 <h2>BEDANKT VOOR JE TIJD EN VOEL JE VRIJ OM CONTACT OP TE NEMEN! </h2>
