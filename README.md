@@ -1,1 +1,131 @@
-> Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+<h1> Create my own profile card </h1>
+Profile card, is een visitekaartje waarmee ik mijzelf presenteerd op het world web!
+In het visitekaartje maak ik duidelijk wie ik ben en wat mijn ambitities zijn. De contactgegevens staan overzichtelijk bij elkaar op de achterkant. 
+
+<h2>Dit project is opgebouwd met behulp van de volgende tools::</h2>
+
+* MacOS Monterey versie 12.5.1 
+* Visual code
+* Git
+* HTML 
+* CSS
+
+<h2>Opbouw</h2>
+
+1️⃣ Eerst gebruik je de toolkit "Emmet" om snel de basis HTML opmaak te maken. 
+Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen. 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile card</title>
+</head>
+<body>
+</body>
+</html>
+```
+
+2️⃣ Maak een .div. met een class .card. Dit wordt gebruikt om het matglazen effect weer te geven. Vervolgens voeg je een .div. met een class .content. Hierin wordt de overlappende schaduw met inhoud weergegeven. daaropvolgend voeg een .h1. en .p. in de .div's. elementen toe om tekst weer te geven. 
+
+```
+<div class="card">
+ <div class="content">
+  <h1>Hi, my name is Michelle</h1>
+  <p>wie ben je? wat zijn je ambities?</p>
+```
+
+3️⃣ Maak een achtergrondafbeelding op het body-element. Op deze achtergrond dien je te bouwen. Voeg .background-attachment. toe, om ervoor te zorgen dat de  achtergrond op volledige grootte blijft. Onderstaand zorgt ervoor dat alles in het midden wordt weergegeven. Vervolgens voeg je een .font. element toe om de tekst te voorzien van lettertype. 
+
+```
+.body {
+ background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
+  /* Keep the inherited background full size. */
+  background-attachment: fixed; 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+```
+
+--4️⃣ Voeg het .card. element toe om ervoor de zorgen dat de positie in stand houdt. Het .box.shadow. pseudo-element 
+```
+.card {
+  width: 330px;
+  height: 412px;
+  box-shadow: -10px -10px 15px rgb(255 255 255 / 50%), 10px 10px 15px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  transition:0.5s ease-out;
+}
+```
+
+5️⃣ Maak een pseudo-element op de .card, dat is wat het matglazen effect zal weergeven. Pas het volgende toe:
+
+```
+.card::before {
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+}
+```
+
+6️⃣
+```
+.card .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 12px;
+  background: rgba(255,255,255, 0.3);
+  transition: 0.5s cubic-bezier(.22,.68,0,1.71);
+  align: center;
+}
+```
+
+7️⃣
+```
+h1 {
+  font-size: 19px;
+  text-align: center;
+}
+```
+8️⃣
+```
+.card:hover .content {
+  width:100%;
+  height:60%;
+  left:0;
+  bottom:0;
+  text-align:center;
+  }
+
+.card:hover {
+  transform: scale(1.1);
+ }
+```
+
+
+
+<h2> THANKYOU FOR YOUR TIME AND LET'S CONTACT! </h2>
