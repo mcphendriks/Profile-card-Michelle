@@ -24,7 +24,6 @@ body {
 }
 
 .card::before {
-  content: "";
   position: absolute;
   background: inherit;
   z-index: -1;
@@ -50,12 +49,13 @@ body {
   padding: 12px;
   background: rgba(255,255,255, 0.3);
   transition: 0.5s cubic-bezier(.22,.68,0,1.71);
+  align: center;
 }
 
   
 h1 {
   font-size: 19px;
-  text-align: left;
+  text-align: center;
 }
 
 .card:hover .content {
