@@ -52,7 +52,20 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
   font-family: sans-serif;
 ```
 
-4️⃣
+4️⃣ Voeg het .card. element toe om ervoor de zorgen dat de position in stand houdt. Het .box.shadow. pseudo-element 
+```
+.card {
+  width: 330px;
+  height: 412px;
+  box-shadow: -10px -10px 15px rgb(255 255 255 / 50%), 10px 10px 15px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  transition:0.5s ease-out;
+}
+```
 
 5️⃣ Maak een pseudo-element op de .card, dat is wat het matglazen effect zal weergeven. Pas het volgende toe:
 
