@@ -119,13 +119,11 @@ h1 {
   left:0;
   bottom:0;
   text-align:center;
-  
-}
+  }
+
 .card:hover {
   transform: scale(1.1);
- 
-}
-
+ }
 ```
 
 
