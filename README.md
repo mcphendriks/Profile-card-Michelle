@@ -42,6 +42,7 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
 3️⃣ Maak een achtergrondafbeelding op het body-element. Op deze achtergrond dien je te bouwen. Voeg background-attachment toe, om ervoor te zorgen dat de  achtergrond op volledige grootte blijft. Onderstaand zorgt ervoor dat alles in het midden wordt weergegeven. Vervolgens voeg je een .font. element toe om de tekst te voorzien van lettertype. 
 
 ```
+.body {
  background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
   /* Keep the inherited background full size. */
   background-attachment: fixed; 
@@ -51,6 +52,7 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
   justify-content: center;
   min-height: 100vh;
   font-family: sans-serif;
+}
 ```
 
 4️⃣ Voeg het .card. element toe om ervoor de zorgen dat de position in stand houdt. Het .box.shadow. pseudo-element 
@@ -87,10 +89,44 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
 
 6️⃣
 ```
-
-
+.card .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 12px;
+  background: rgba(255,255,255, 0.3);
+  transition: 0.5s cubic-bezier(.22,.68,0,1.71);
+  align: center;
+}
+```
 
 7️⃣
+```
+h1 {
+  font-size: 19px;
+  text-align: center;
+}
+```
+8️⃣
+```
+.card:hover .content {
+  width:100%;
+  height:60%;
+  left:0;
+  bottom:0;
+  text-align:center;
+  
+}
+.card:hover {
+  transform: scale(1.1);
+ 
+}
+
+```
 
 
 
