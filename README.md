@@ -29,17 +29,28 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
 </body>
 </html>
 ```
-2️⃣ Maak een div met een class .card. Dit wordt gebruikt om het matglazen effect weer te geven.
+2️⃣ Maak een .div. met een class .card. Dit wordt gebruikt om het matglazen effect weer te geven. Vervolgens voeg je een .div. met een class .content. Hierin wordt de overlappende schaduw met inhoud weergegeven. daaropvolgend voeg een .h1. en .p. in de .div's. elementen toe om tekst weer te geven. 
 
 ```
 <div class="card">
  <div class="content">
   <h1>Hi, my name is Michelle</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum exercitationem, delectus sed veniam, repellat consequuntur cumque expedita ad reiciendis ea nihil error modi sint quod asperiores assumenda optio. Earum, qui!</p>
+  <p>Jezelf voorstellen, wie ben je?</p>
 ```
 
+3️⃣ Maak een achtergrondafbeelding op het body-element. Op deze achtergrond dien je te bouwen. 
 
- Pas vervolgens een achtergrondafbeelding toe op het body-element. Op deze achtergrond moet je solliciteren:Maak een class gemaand "card" aan in HTML. Deze wordt toegepast om het glas effect te creëren. 
+```
+ background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
+  /* Keep the inherited background full size. */
+  background-attachment: fixed; 
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+```
 
 
 
