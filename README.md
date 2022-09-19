@@ -39,7 +39,7 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
   <p>wie ben je? wat zijn je ambities?</p>
 ```
 
-3️⃣ Maak een achtergrondafbeelding op het body-element. Op deze achtergrond dien je te bouwen. Voeg background-attachment toe, om ervoor te zorgen dat de  achtergrond op volledige grootte blijft. Onderstaand zorgt ervoor dat alles in het midden wordt weergegeven. Vervolgens voeg je een .font. element toe om de tekst te voorzien van lettertype. 
+3️⃣ Maak een achtergrondafbeelding op het body-element. Op deze achtergrond dien je te bouwen. Voeg .background-attachment. toe, om ervoor te zorgen dat de  achtergrond op volledige grootte blijft. Onderstaand zorgt ervoor dat alles in het midden wordt weergegeven. Vervolgens voeg je een .font. element toe om de tekst te voorzien van lettertype. 
 
 ```
 .body {
