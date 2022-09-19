@@ -1,25 +1,23 @@
-
 body {
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: #EEEEEE;
+  font-family:Arial, Helvetica, sans-serif;
   background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
-  /* Keep the inherited background full size. */
-  background-attachment: fixed; 
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  font-family: sans-serif;
+/* Keep the inherited background full size. */
+background-attachment: fixed;
+background-size: cover;
+
 }
-/* This container is needed to position the front and back side */
+
 .card {
-  width: 330px;
-  height: 412px;
-  box-shadow: -10px -10px 15px rgb(255 255 255 / 50%), 10px 10px 15px rgb(0 0 0 / 25%);
+  position:relative;
+  width:330px;
+  height:412px;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  position: relative;
-  z-index: 1;
-  background: inherit;
-  overflow: hidden;
   transition:0.5s ease-out;
 }
 
@@ -32,32 +30,30 @@ body {
   right: 0;
   bottom: 0;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-  filter: blur(10px);
-  margin: -20px;
-}
-
-
-
+  filter: blur(30px);
+ }
+ 
 .card .content {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  box-sizing: border-box;
-  overflow: hidden;
-  padding: 12px;
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:90px;
   background: rgba(255,255,255, 0.3);
+  box-sizing:border-box;
   transition: 0.5s cubic-bezier(.22,.68,0,1.71);
-  align: center;
+  transition:0.3s ease-out;
+  overflow:hidden;
+  padding:12px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
 }
 
-  
 h1 {
-  font-size: 19px;
-  text-align: center;
+  font-size:19px;
+  text-align:left;
+  padding:10px 20px;
 }
-
 .card:hover .content {
   width:100%;
   height:60%;
@@ -70,3 +66,9 @@ h1 {
   transform: scale(1.1);
  
 }
+p {
+  text-align:left;
+  font-size:15px;
+  padding:10px 20px;
+}
+
