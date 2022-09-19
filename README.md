@@ -29,6 +29,17 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
 </body>
 </html>
 ```
+2️⃣ Maak een div met een class .card. Dit wordt gebruikt om het matglazen effect weer te geven.
+
+```
+<div class="card">
+ <div class="content">
+  <h1>Hi, my name is Michelle</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum exercitationem, delectus sed veniam, repellat consequuntur cumque expedita ad reiciendis ea nihil error modi sint quod asperiores assumenda optio. Earum, qui!</p>
+```
+
+
+ Pas vervolgens een achtergrondafbeelding toe op het body-element. Op deze achtergrond moet je solliciteren:Maak een class gemaand "card" aan in HTML. Deze wordt toegepast om het glas effect te creëren. 
 
 
 
