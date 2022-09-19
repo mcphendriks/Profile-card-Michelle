@@ -55,7 +55,7 @@ Vergeet niet om de Link "style.css toe te voegen. om HTML aan CSS te koppelen.
 }
 ```
 
-4️⃣ Voeg het .card. element toe om ervoor de zorgen dat de position in stand houdt. Het .box.shadow. pseudo-element 
+--4️⃣ Voeg het .card. element toe om ervoor de zorgen dat de position in stand houdt. Het .box.shadow. pseudo-element 
 ```
 .card {
   width: 330px;
