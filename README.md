@@ -81,7 +81,7 @@ background-size: cover;
 }
 ```
 
-5️⃣ 
+5️⃣ Voeg de Pseudo-elementen toe. Het .background rgba element zorgt ervoor dat de achtergrond van de overlaag een transparant effect weeergeeft. De transitie zorgen ervoor dat de overlaag omhoog hover wanneer de gebreuker er met de muis overheen gaat. De .overlfow.hidden zorgt ervoor dat alles in lijn blijft binnen het overlaag element. De. border-radius. zorgen ervoor dat de kaart overlaag dezelfde grote bevat als .card.
 ```
 .card .content {
   position:absolute;
@@ -99,7 +99,7 @@ background-size: cover;
 }
 ```
 
-6️⃣
+6️⃣ Voeg het hovereffect toe, zodat wanneer een gebruiker over een element zweeft en het element reageert met overgangseffecten van ease-in en ease-out.
 ```
 .card:hover .content {
   width:100%;
@@ -110,7 +110,7 @@ background-size: cover;
   transform: scale(1.1);
 }
 ```
-7️⃣
+7️⃣ Voeg de pseudo element toe om de texten de style. Voeg tex-shadow toe voor een extra effect achter het lettertype
 
 ```
 h1 {
@@ -132,7 +132,7 @@ p, h1 {
   padding: 10px;
 }
 ```
-8️⃣
+8️⃣  Voeg de pseudo-elementen toe om de font-style te weergeven. Voeg border-radius:4px toe om ronde knoppen te maken en verklein de breedte. Zet de .text-decoration:none, zodat er  geen lijn getrokken wordt en eventuele bestaande decoratie wordt verwijderd
 ```
 .fa {
   padding: 10px 10px;
@@ -150,7 +150,7 @@ p, h1 {
 }
 ```
 
-9️⃣
+9️⃣ voeg een specifieke kleur toe op elk pseudo-element.
 ```
 /* codepen */
 .fa-codepen { 
