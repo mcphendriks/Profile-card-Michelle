@@ -66,7 +66,7 @@ background-size: cover;
 }
 ```
 
-4️⃣ Voeg het .card. element toe om ervoor de zorgen dat de positie in stand houdt. De ".box.shadow. & .backdrop-filter." pseudo-elementen zullen een matglazen effect weergeven:
+4️⃣ Voeg het .card. element toe om ervoor de zorgen dat de positie in stand houdt. De ".box.shadow. & .backdrop-filter." pseudo-elementen geven een matglazen effect.
 
 ```
 .card {
@@ -105,13 +105,12 @@ background-size: cover;
   width:100%;
   height:60%;
   text-align:center;
-  
-}
+  }
 .card:hover {
   transform: scale(1.1);
 }
-``
-:seven
+```
+7️⃣
 
 ```
 h1 {
@@ -133,7 +132,7 @@ p, h1 {
   padding: 10px;
 }
 ```
-:eight
+8️⃣
 ```
 .fa {
   padding: 10px 10px;
@@ -151,7 +150,8 @@ p, h1 {
 }
 ```
 
-:nine
+9️⃣
+```
 /* codepen */
 .fa-codepen { 
   background: rgba(255, 255, 255, 0.5);
