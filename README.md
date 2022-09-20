@@ -81,6 +81,99 @@ background-size: cover;
 }
 ```
 
+5️⃣ 
+```
+.card .content {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
+  background: rgba(255,255,255, 0.3);
+  box-sizing:border-box;
+  transition: 0.5s cubic-bezier(.22,.68,0,1.71);
+  transition:0.3s ease-out;
+  overflow:hidden;
+  padding:12px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius:15px;
+}
+```
 
+6️⃣
+```
+.card:hover .content {
+  width:100%;
+  height:60%;
+  text-align:center;
+  
+}
+.card:hover {
+  transform: scale(1.1);
+}
+``
+:seven
+
+```
+h1 {
+  font-size:18px;
+  text-align:left;
+  color: rgba(128, 128, 128);
+  text-shadow: 0px 0px 30px #0a0909;
+}
+
+p {
+  text-align:left;
+  font-size: 14px;
+  padding: 10px 10px;
+  color: rgba(128, 128, 128)
+}
+
+p, h1 {
+  margin: 0px;
+  padding: 10px;
+}
+```
+:eight
+```
+.fa {
+  padding: 10px 10px;
+  font-size: 10px;
+  width: 15px;
+  min-height: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: rgb(255, 255, 255)
+}
+```
+
+:nine
+/* codepen */
+.fa-codepen { 
+  background: rgba(255, 255, 255, 0.5);
+  color: rgb(128, 128, 128);
+}
+/* github */
+.fa-github { 
+  background: rgba(255, 255, 255, 0.5);
+  color: rgb(128, 128, 128);
+}
+/* Twitter */
+.fa-twitter {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgb(128, 128, 128);
+}
+
+/* linkedin */
+.fa-linkedin {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgb(128, 128, 128);
+}
+
+```
 
 <h2> THANKYOU FOR YOUR TIME AND LET'S CONTACT! </h2>
