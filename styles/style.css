@@ -9,7 +9,6 @@ body {
 /* Keep the inherited background full size. */
 background-attachment: fixed;
 background-size: cover;
-
 }
 
 /* set up the hight and the width from the card */
