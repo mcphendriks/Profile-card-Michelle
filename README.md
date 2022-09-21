@@ -150,7 +150,7 @@ p, h1 {
 }
 ```
 
-9️⃣ voeg een specifieke kleur toe op elk pseudo-element.
+9️⃣ Voeg een specifieke kleur toe op elk pseudo-element.
 ```
 /* codepen */
 .fa-codepen { 
